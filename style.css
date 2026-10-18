@@ -337,6 +337,47 @@
     color: #00ff66;
   }
 
+  /* חלק חמישי */
+
+  .alert-box {
+    width: 950px;
+    height: 50px;
+    background-color: #1a080d; 
+    border: 1px solid #73122b; 
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    
+  }
+  .alert-box:hover {
+    background-color: #200f15; 
+    transform: scale(1.05);
+
+
+
+  }
+  
+  .alert-text {
+    color: #73122b;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: px;
+  }
+  
+  .alert-dot {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 8px;
+    height: 8px;
+    background-color: #ff2a5f;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #ff2a5f;
+  }
+  
   
 
   
